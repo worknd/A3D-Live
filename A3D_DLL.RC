@@ -1,0 +1,55 @@
+//===========================================================================
+//
+// A3D_DLL.RC
+//
+// Purpose: Aureal A3D 1.x interface library (Wrapper to DirectSound3D).
+// 
+// Copyright (C) 2004 Dmitry Nesterenko. All rights reserved.
+//
+//===========================================================================
+
+
+#include <winver.h>
+
+
+// Version information for library.
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 	9999,2,12,2011
+PRODUCTVERSION 	9999,2,12,2011
+FILEFLAGSMASK 	VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+FILEFLAGS 	VS_FF_DEBUG
+#else
+FILEFLAGS	VS_FF_PATCHED
+#endif
+FILEOS 		VOS__WINDOWS32
+FILETYPE 	VFT_DLL
+FILESUBTYPE	VFT2_UNKNOWN
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904B0"
+		BEGIN
+//			VALUE "Comments", "Wrapper to DirectSound3D\0"
+			VALUE "CompanyName", "Aureal Semiconductor\0"
+//			VALUE "FileDescription", "Aureal A3D 1.x DLL\0"
+			VALUE "FileVersion", "2.12\0"
+//			VALUE "InternalName", "A3D\0"
+//			VALUE "LegalCopyright", "Copyright © 1996-1999 Aureal Semiconductor\0"
+//			VALUE "LegalTrademarks", "Aureal, A3D, A3D Interactive\0"
+//			VALUE "OriginalFilename", "a3d.dll\0"
+//			VALUE "PrivateBuild", "A3D Wrapper\0"
+//			VALUE "ProductName", "A3D Interactive DLL\0"
+//			VALUE "ProductVersion", "2.12\0"
+//			VALUE "SpecialBuild", "2.12.2011\0"
+		END
+		BLOCK "041904B0"
+		BEGIN
+			VALUE "CompanyName", "Aureal Semiconductor\0"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x409, 0x4B0, 0x419, 0x4B0
+	END
+END

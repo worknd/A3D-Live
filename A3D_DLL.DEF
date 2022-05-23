@@ -1,0 +1,20 @@
+;//===========================================================================
+;//
+;// A3D_DLL.DEF
+;//
+;// Purpose: Aureal A3D 1.x interface library (Wrapper to DirectSound3D).
+;// 
+;// Copyright (C) 2004 Dmitry Nesterenko. All rights reserved.
+;//
+;//===========================================================================
+
+LIBRARY		A3D
+
+DESCRIPTION	"A3D Wrapper to DirectSound3D"
+
+EXPORTS
+		_A3dCreate@12        PRIVATE
+		DllCanUnloadNow      PRIVATE
+		DllGetClassObject    PRIVATE
+		DllRegisterServer    PRIVATE
+		DllUnregisterServer  PRIVATE
